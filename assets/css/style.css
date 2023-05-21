@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #fff399;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://cdn.dribbble.com/users/171671/screenshots/9954543/media/13f67ca7a59850a72daeaa12a8bcf537.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #60779a!important;
+}
+
+.navbar-brand{
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #fff!important;
+}
+
+.nav-link{
+    color: #fff!important;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.nav-link:hover{
+    background-color: rgb(255, 175, 175);
+    border-radius: 5px;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #373636;
+    color: hsl(0, 0%, 100%);
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: rgb(255, 116, 66);
+    color: #000000!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #ffe2ce;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ebffa8;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
